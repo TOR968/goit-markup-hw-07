@@ -6,13 +6,13 @@ header {
 }
 .site-nav {
     display: flex;
-  & .item + .item {
-    margin-left: 50px;
-  }
+  
   & .item {
     position: relative;
     padding-top: 32px;
     padding-bottom: 32px;
+    & + .item {
+      margin-left: 50px;}
   }
   & a {
       &:hover,
