@@ -1,15 +1,6 @@
 footer {
     color: $primary-white-color;
     background-color: $footer-background;
-    p {
-        margin: 0;
-        padding: 18px 0px 21px;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-        color: $adres-text-color;
-        font-size: 12px;
-        line-height: 2;
-        text-align: center;
-      }
     a {
         color: $primary-white-color;
       }
@@ -21,13 +12,13 @@ footer {
 
   }}
   .logo-adress {
-    padding: 48px 69px 28px 0;
+    padding: 60px 69px 60px 0;
     &-main {
         display: flex;
       }
   }
   .connect {
-    padding: 56px 0;
+    padding: 72px 0px 100px 0px;
   }
   .title-footer {
     display: inline-block;
@@ -90,8 +81,8 @@ footer {
   .subscribe {
     align-items: center;
     margin-left: auto;
-    padding-top: 56px;
-    padding-bottom: 50px;
+    padding-top: 72px;
+    padding-bottom: 94px;
     input {
         background-color: $footer-background;
         color: rgba(255, 255, 255, 0.6);
