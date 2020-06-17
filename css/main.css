@@ -446,7 +446,7 @@ nav span {
 }
 
 h1 {
-  color: var(--primary-white-color);
+  color: #ffffff;
 }
 
 .btn {
@@ -1277,6 +1277,9 @@ address a {
   color: #ffffff;
   padding: 63px 24px;
   margin: 0;
+}
+
+.card-img::before, .card-img-text {
   left: 0;
   top: 0;
   width: 100%;
@@ -1284,9 +1287,9 @@ address a {
   opacity: 0;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 250ms var(--animation), -webkit-transform 250ms var(--animation);
+  transition: opacity 250ms var(--animation), -webkit-transform 250ms var(--animation);
+  transition: transform 250ms var(--animation), opacity 250ms var(--animation);
+  transition: transform 250ms var(--animation), opacity 250ms var(--animation), -webkit-transform 250ms var(--animation);
 }
 /*# sourceMappingURL=main.css.map */
