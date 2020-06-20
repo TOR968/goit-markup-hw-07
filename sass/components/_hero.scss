@@ -18,6 +18,7 @@
     margin-right: auto;
  
    & h1 {
+    color: $primary-white-color;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -27,9 +28,3 @@
     margin-top: 0;
     margin-bottom: 46px;
   } }
-  
-  h1 {
-    color: $primary-white-color;
-  }
-
-  

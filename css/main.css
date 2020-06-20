@@ -435,6 +435,7 @@ nav span {
 }
 
 .hero h1 {
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -443,10 +444,6 @@ nav span {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 46px;
-}
-
-h1 {
-  color: #ffffff;
 }
 
 .btn {

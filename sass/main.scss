@@ -1,6 +1,9 @@
 @import "./base/normalize";
 @import "./utils/variables";
+@import "./base/box";
+@import "./utils/root";
 @import "./components/body";
+@import "./utils/decoration-none";
 @import "./components/current-page";
 @import "./components/container";
 @import "./components/header";
